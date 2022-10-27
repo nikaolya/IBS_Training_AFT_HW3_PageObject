@@ -24,7 +24,7 @@ public class PropManager {
 	private void loadApplicationProperties() {
 		final String fileName = String.format("src\\main\\resources\\%s.properties",
 				System.getProperty("propFile", "application"));
-		try (FileInputStream inputStream = new FileInputStream(fileName)){
+		try (FileInputStream inputStream = new FileInputStream(fileName)) {
 			properties.load(inputStream);
 		} catch (IOException e) {
 			e.printStackTrace();

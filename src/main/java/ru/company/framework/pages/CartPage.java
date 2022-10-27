@@ -2,18 +2,16 @@ package ru.company.framework.pages;
 
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import ru.company.framework.helpers.Product;
 import ru.company.framework.helpers.ProductCart;
 
-import java.time.Duration;
 import java.util.List;
-import java.util.function.Function;
 
-import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CartPage extends BasePage{

@@ -9,13 +9,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import ru.company.framework.enums.HeaderButton;
 import ru.company.framework.helpers.Product;
 import ru.company.framework.helpers.ProductCart;
-import ru.company.framework.managers.PageManager;
 import ru.company.framework.pages.BasePage;
 import ru.company.framework.pages.CartPage;
 import ru.company.framework.pages.SearchResultPage;
 
 import java.util.List;
-import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;

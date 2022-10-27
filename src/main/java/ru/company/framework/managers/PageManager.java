@@ -1,7 +1,6 @@
 package ru.company.framework.managers;
 
 import ru.company.framework.pages.CartPage;
-import ru.company.framework.pages.HomePage;
 import ru.company.framework.pages.blocks.Header;
 import ru.company.framework.pages.ProductPage;
 import ru.company.framework.pages.SearchResultPage;
